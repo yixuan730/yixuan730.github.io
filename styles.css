@@ -69,7 +69,8 @@ a:focus-visible { outline: 2px solid #7799c4; outline-offset: 2px; }
 .profile-links a:nth-child(1)::before { content: "✉️"; }
 .profile-links a:nth-child(2)::before { content: "📚"; }
 .profile-links a:nth-child(3)::before { content: "💻"; }
-.profile-links a:nth-child(4)::before { content: "𝕏"; font-weight: 700; }
+.profile-links a:nth-child(4)::before { content: "in"; width: 16px; height: 16px; margin-right: 7px; border-radius: 2px; background: #0a66c2; color: #fff; font: 700 11px/16px Arial, sans-serif; text-align: center; vertical-align: 1px; }
+.profile-links a:nth-child(5)::before { content: "𝕏"; font-weight: 700; }
 .profile-links a:hover { color: var(--link); text-decoration: underline; }
 .profile-links a span { display: none; }
 
