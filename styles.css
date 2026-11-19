@@ -125,6 +125,7 @@ h1 { font-size: 17px; font-weight: 700; margin: 0 0 6px; line-height: 1.4; }
 .paper-figure::before { content: ""; position: absolute; z-index: -1; width: 77%; height: 76%; background: #d5e2f1; border-radius: 5px; transform: translate(5px, 6px) rotate(-5deg); box-shadow: 0 5px 12px rgba(37, 62, 100, .12); }
 .paper-figure img { display: block; width: 100%; height: 100%; object-fit: contain; padding: 5px; background: #fff; border: 1px solid rgba(130, 150, 180, .28); border-radius: 4px; box-shadow: 0 3px 7px rgba(37, 62, 100, .12), 0 9px 15px rgba(37, 62, 100, .09); transform: rotate(1deg); }
 .paper-meta { color: #777; font-size: 14px; line-height: 1.4; }
+.oral-badge { display: inline-block; margin-left: 7px; padding: 1px 7px; border-radius: 4px; background: #fff0e9; color: #a34a20; font-size: 12px; font-weight: 700; line-height: 1.4; vertical-align: 1px; }
 .paper h4 { font-size: 16px; font-weight: 600; line-height: 1.4; margin: 2px 0; }
 .paper h4 a { color: var(--link); }
 .paper p { margin: 2px 0; font-size: 15px; line-height: 1.45; }
